@@ -1,10 +1,10 @@
-# Chainlink Standalone Tests Successful
+# Chainlink Standalone Tests Were Successful
 
 This repo contains files used to successfully test Chainlink's AnyAPI and VRF2 products as standalones on the Koven and Rinkbey testnets.
 
 
 * `ChainlinkAnyAPI.sol`: Successfully deployed Koven at [https://kovan.etherscan.io//address/0xe106A4E201e638610b0CcED7981158b1bba8A228](0xe106A4E201e638610b0CcED7981158b1bba8A228)
-* `ChainlinkVRF.sol`: Successfully deployed Rinkeby at [https://rinkeby.etherscan.io/address/0xEbA883FFC1d77A7Ee3B53bF779B8C5cF69711376] (0xEbA883FFC1d77A7Ee3B53bF779B8C5cF69711376). 
+* `ChainlinkVRF.sol`: Successfully deployed Rinkeby at [https://rinkeby.etherscan.io/address/0xEbA883FFC1d77A7Ee3B53bF779B8C5cF69711376](0xEbA883FFC1d77A7Ee3B53bF779B8C5cF69711376). 
 
 As shown in the showcase video, these to implementations were successfully implemented.
 
