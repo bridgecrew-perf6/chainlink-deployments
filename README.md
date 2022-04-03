@@ -19,7 +19,10 @@ The errors can basically be summarized as "unable to calculate gas". For example
 
 ```
 $ npx hardhat run scripts/interact-vrf.js --network rinkeby
-Error: cannot estimate gas; transaction may fail or may require manual gas limit [ See: https://links.ethers.org/v5-errors-UNPREDICTABLE_GAS_LIMIT ] (error={"name":"ProviderError","code":3,"_isProviderError":true,"data":"0x4e487b710000000000000000000000000000000000000000000000000000000000000032"}, method="estimateGas", 
+Error: cannot estimate gas; transaction may fail or may require manual gas limit 
+[ See: https://links.ethers.org/v5-errors-UNPREDICTABLE_GAS_LIMIT ] 
+(error={"name":"ProviderError","code":3,"_isProviderError":true,
+"data":"0x4e487b710000000000000000000000000000000000000000000000000000000000000032"}, method="estimateGas", 
 ```
 
 Fortunately, as you can see in the code for `RaffleVRF3.sol`, the toy-model uses a pseudo-random number generator as a fallback.  And, it works flawlessly!  
