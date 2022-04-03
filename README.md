@@ -13,7 +13,7 @@ As shown in the showcase video, these to implementations were successfully imple
 
 The next milestone is to incorporate Chainlink's AnyAPI, Data feeds, VRF1, and VRF2 into existing blockchain applications and products.
 
-For full transparency, unsuccessful attempts were made to integrate Chainlink VRF2 within my random number generator toy-model running on the Rinkeby Testnet. The file used for the attempted integrations is `RaffleVRF3.sol`
+For full transparency, unsuccessful attempts were made to integrate Chainlink VRF2 within [my random number generator toy-model]((https://github.com/codesport/blockchain-random-numbers) running on the Rinkeby Testnet. The file used for the attempted integrations is [`RaffleVRF3.sol`](https://github.com/codesport/chainlink-deployments/blob/master/contracts/RaffleVRF3.sol).
 
 The errors can basically be summarized as "unable to calculate gas". For example:
 
