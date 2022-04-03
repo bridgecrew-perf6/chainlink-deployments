@@ -9,7 +9,7 @@ This repo contains files used to successfully test Chainlink's AnyAPI and VRF2 p
 As shown in the showcase video, these to implementations were successfully implemented. The history of the VRF2 subscription queries are available here: https://vrf.chain.link/rinkeby/1495
 
 
-# Next Steps
+# Next Steps and Room for Improvement
 
 The next milestone is to incorporate Chainlink's AnyAPI, Data feeds, VRF1, and VRF2 into existing blockchain applications and products.
 
