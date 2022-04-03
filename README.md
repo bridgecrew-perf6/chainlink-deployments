@@ -26,5 +26,5 @@ Error: cannot estimate gas; transaction may fail or may require manual gas limit
 method="estimateGas", 
 ```
 
-Fortunately, as you can see in the code for `RaffleVRF3.sol`, the toy-model uses a pseudo-random number generator as a fallback.  And, it works flawlessly!  
+Fortunately, as you can see in the code for [`RaffleVRF3.sol`](https://github.com/codesport/chainlink-deployments/blob/master/contracts/RaffleVRF3.sol#L277), the toy-model uses a pseudo-random number generator as a fallback.  And, it works flawlessly!  
 
